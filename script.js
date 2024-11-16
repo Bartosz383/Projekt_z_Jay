@@ -1,1 +1,1 @@
-
+var buttons = querySelectorAll("button");
