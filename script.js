@@ -1,5 +1,5 @@
 // Pobierz elementy z DOM
-const buttons = querySelectorAll("button");
+const buttons = document.querySelectorAll("button");
 const form = document.getElementById('weather-form');
 const cityInput = document.getElementById('city-input');
 const weatherResult = document.getElementById('weather-result');
