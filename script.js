@@ -16,10 +16,8 @@ form.addEventListener('submit', async (event) => {
       const data=await response.json()
       //Miejste Temperatura Opis Wilgoność Wiatr
       weatherResult.innerHTML="W ${data.name} temperatura jest od ${data.temp_min.Metric} do $(data.temp_max.Metric) stopni celsjusza. Powietrze leci ${data.wind.speed} metrów na sekunde. Chmury pokrywają ${data.clouds.all}% nieba i wilgoność jest %{data.main.humidity}%."
-  }catch (error) {
-      weatherResult.innerHTML="<p class='błąd'>${error.message}</p>";
-  } else{
-    throw new Error("Brakuje nazwy miasta");
-    weatherResult.innerHTML="<p id = 'puste' class='błąd'>Wpisz text</p>";
+    }catch (error) {
+      weatherResult.innerHTML="<p class='błąd'>${error.message}</p>"
+    }
   }
 });
