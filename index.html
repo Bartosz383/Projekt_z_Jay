@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Przewidywanie Pogody</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-<h1>Przewidywanie pogody</h1>
-        <form method="post" id="weather-form">
-            <label for="Miasto">Miasto:</label>
-            <input type="text" placeholder="W którym mieście?" id="city-input" name="city-input" required><br><br>
-            <button type="Submit">Wyślij</button>
-        </form>
-        <div id="weather-result"></div>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Przewidywanie Pogody</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="app">
+    <h1>Przewidywanie pogody</h1>
+    <form method="post" id="weather-form">
+        <label for="city-input">Miasto:</label>
+        <input type="text" placeholder="W którym mieście?" id="city-input" name="city" required><br><br>
+        <button type="submit">Wyślij</button>
+    </form>
+    <div id="weather-result"></div>
+</div>
 <script type="text/javascript" src="script.js"></script>
-    </body>
+</body>
 </html>
