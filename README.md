@@ -1,6 +1,29 @@
+# Sugestie na temat rozwoju aplikacji
+
+1 .Dodanie prognozy na kilka dni:
+- Wykorzystaj API OpenWeatherMap forecast dla prognozy 5-dniowej.
+
+2. Wybór jednostek miary:
+- Dodaj przełącznik między °C a °F.
+
+3. Obsługa lokalizacji:
+- Dodaj możliwość wykrywania lokalizacji użytkownika za pomocą navigator.geolocation.
+
+4. Lepsza obsługa błędów:
+- Informuj użytkownika, gdy pole pozostanie puste.
+
+5. Historia wyszukiwań:
+- Przechowuj ostatnio wyszukiwane miasta w localStorage.
+
+6. Stylizacja wyników:
+- Dodaj ikonki pogody, np. słoneczko, chmury.
+
+7. Testowanie na różnych przeglądarkach:
+- Upewnij się, że aplikacja działa prawidłowo na różnych urządzeniach i przeglądarkach.
 
 
-Jak pisać w Readme (język Markdown)
+
+# Jak pisać w Readme (język Markdown)
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 
