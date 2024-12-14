@@ -23,10 +23,10 @@
 
 # Komendy git
 
-git pull origin <nazwa_gałęzi>  # Zsynchronizuj z zdalnym repozytorium
-git add .                      # Dodaj zmiany do obszaru staging
-git commit -m "Opis zmian"     # Zatwierdź zmiany
-git push origin <nazwa_gałęzi> # Wyślij zmiany do zdalnego repozytorium
+- git pull origin <nazwa_gałęzi>  # Zsynchronizuj z zdalnym repozytorium
+- git add .                      # Dodaj zmiany do obszaru staging
+- git commit -m "Opis zmian"     # Zatwierdź zmiany
+- git push origin <nazwa_gałęzi> # Wyślij zmiany do zdalnego repozytorium
 
 
 # Jak pisać w Readme (język Markdown)
